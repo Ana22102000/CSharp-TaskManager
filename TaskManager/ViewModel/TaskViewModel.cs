@@ -158,7 +158,7 @@ namespace TaskManager.ViewModel
             }
             catch (Exception e)
             {
-            } //todo
+            } 
         }
 
 
@@ -242,7 +242,7 @@ namespace TaskManager.ViewModel
             {
                 Thread.Sleep(processInterval * 1000);
 
-                if (Processes != null)//todo remove??
+                if (Processes != null)//todo maybe remove?
                 {
                     ObservableCollection<TaskModel> newProcesses = new ObservableCollection<TaskModel>(Processes);
 
